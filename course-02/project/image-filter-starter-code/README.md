@@ -1,3 +1,5 @@
+EB Endpoint is under "### Deploying your system"
+
 # Udagram Image Filtering Microservice
 
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
@@ -30,6 +32,12 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 ### Deploying your system
 
 Follow the process described in the course to `eb init` a new application and `eb create` a new environment to deploy your image-filter service! Don't forget you can use `eb deploy` to push changes.
+
+My Elasticbeanstalk Endpoint
+http://imagefilterkatjiuongua-env.us-east-1.elasticbeanstalk.com/
+
+Image used
+https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?cs=srgb&dl=pexels-chevanon-photography-1108099.jpg&fm=jpg
 
 ## Stand Out (Optional)
 

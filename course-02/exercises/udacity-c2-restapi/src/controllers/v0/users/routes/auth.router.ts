@@ -50,7 +50,7 @@ export function requireAuth(req: Request, res: Response, next: NextFunction) {
     //jwt library validates. pass the token & secret
     //need to decrypt with the same secret that we encrypted that token with.
     //Pass the token and the secret
-    return jwt.verify(token, config.jwt.secret, (err, decoded) => { //change string "hello"
+     return jwt.verify(token, config.jwt.secret, (err, decoded) => { //change string "hello"
        if (err) {
          return res.status(500).send({ auth: false, message: 'Failed to authenticate.' });
        }
